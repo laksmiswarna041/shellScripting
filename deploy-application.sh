@@ -99,7 +99,7 @@ sudo firewall-cmd --permanent --zone=public --add-port=80/tcp
 sudo firewall-cmd --reload
 
 #backing up mysql database
-sudo mysqldump -u 'root' -pswarna99@GB ecomdb > /home/lakshmiswarna041/mydb_backup.sql
+sudo mysqldump -u 'root' -p<mysqlpassword> ecomdb > /home/lakshmiswarna041/mydb_backup.sql
 
 
 #configure apache2
